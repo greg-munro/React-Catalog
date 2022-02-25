@@ -7,7 +7,9 @@
       "description": "Dual 12MP Wide and Ultra Wide cameras, 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps, FaceTime video calling over cellular or Wi‑Fi ",
       "color": "Black",
       "price": "€300",
-      "brand": "Apple"
+      "brand": "Apple",
+      "rating": 3,
+      "in_stock": true
     },
     {
       "id": 2,
@@ -16,7 +18,9 @@
       "description": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55, 1.4µm, dual pixel PDAF, OIS, Iris scanner, fingerprint (rear-mounted)",
       "color": "Black",
       "price": "€150",
-      "brand": "Samsung"
+      "brand": "Samsung",
+      "rating": 4,
+      "in_stock": true
     },
     {
       "id": 3,
@@ -25,7 +29,9 @@
       "description": "Dual 15MP Wide and Ultra Wide cameras, 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps, FaceTime video calling over cellular or Wi‑Fi",
       "color": "Blue",
       "price": "€470",
-      "brand": "Apple"
+      "brand": "Apple",
+      "rating": 5,
+      "in_stock": false
     },
     {
       "id": 4,
@@ -34,7 +40,9 @@
       "description": "20 MP, f/1.5-2.4, 26mm (wide), 1/2.55, 2µm, dual pixel PDAF, OIS, Iris scanner, fingerprint (rear-mounted)",
       "color": "Grey",
       "price": "€619",
-      "brand": "Samsung"
+      "brand": "Samsung",
+      "rating": 5,
+      "in_stock": false
     },
     {
       "id": 5,
@@ -43,7 +51,9 @@
       "description": "20 MP, f/1.5-2.4, 26mm (wide), 1/2.55, 2µm, dual pixel PDAF, OIS, Iris scanner, fingerprint (rear-mounted)",
       "color": "White",
       "price": "€750",
-      "brand": "Samsung"
+      "brand": "Samsung",
+      "rating": 4,
+      "in_stock": true
     },
     {
       "id": 6,
@@ -51,7 +61,10 @@
       "image_url": "https://www.backmarket.co.uk/cdn-cgi/image/format=auto,quality=75,width=640/https://d1eh9yux7w8iql.cloudfront.net/product_images/512318_707bdda2-9f5b-4486-bab1-c6dc4ad2d1bc.jpg",
       "description": "Dual 15MP Wide and Ultra Wide cameras, 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps, FaceTime video calling over cellular or Wi‑Fi",
       "color": "Blue",
-      "price": "€650"
+      "price": "€650",
+      "brand": "Apple",
+      "rating": 5,
+      "in_stock": true
     }
   ]
 }

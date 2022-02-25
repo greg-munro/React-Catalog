@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export const PhoneListContainer = () => {
   const [phones, setPhones] = useState([]);
@@ -25,6 +26,7 @@ export const PhoneListContainer = () => {
 
             <h6>{phone.description}</h6>
             <h4>Price: {phone.price}</h4>
+            <Link to={`/phones/${phone.id}`}>Details</Link>
             <hr></hr>
           </div>
         );
