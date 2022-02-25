@@ -1,9 +1,16 @@
-import './App.css';
+import React from "react";
+import { PhoneListContainer } from "./pages/PhoneListContainer";
+
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-     <h1>Zignaly Phone Catalog</h1>
+    
+ <PhoneListContainer/>
+    
+    
     </div>
   );
 }

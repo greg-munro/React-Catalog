@@ -2,47 +2,52 @@
   "phones": [
     {
       "id": 1,
-      "title": "iPhone 11 64gb",
+      "name": "iPhone 11 64gb",
       "image_url": "https://www.backmarket.co.uk/cdn-cgi/image/format=auto,quality=75,width=2048/https://d1eh9yux7w8iql.cloudfront.net/product_images/290057_b4c7419d-aa1b-47dc-a956-4afbd61d7d1f.jpg",
       "description": "Dual 12MP Wide and Ultra Wide cameras, 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps, FaceTime video calling over cellular or Wi‑Fi ",
       "color": "Black",
-      "price": "€300"
+      "price": "€300",
+      "brand": "Apple"
     },
     {
       "id": 2,
-      "title": "Galaxy S9 64gb",
+      "name": "Galaxy S9 64gb",
       "image_url": "https://www.backmarket.co.uk/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/466527_8108064d-e16e-477b-866f-6e322f4ef6c3.jpg",
       "description": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55, 1.4µm, dual pixel PDAF, OIS, Iris scanner, fingerprint (rear-mounted)",
       "color": "Black",
-      "price": "€150"
+      "price": "€150",
+      "brand": "Samsung"
     },
     {
       "id": 3,
-      "title": "iPhone 12 mini 64gb",
+      "name": "iPhone 12 mini 64gb",
       "image_url": "https://www.backmarket.co.uk/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/412289_2be59c05-1550-4e37-9ecc-1b0a14e29fff.jpg",
       "description": "Dual 15MP Wide and Ultra Wide cameras, 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps, FaceTime video calling over cellular or Wi‑Fi",
       "color": "Blue",
-      "price": "€470"
+      "price": "€470",
+      "brand": "Apple"
     },
     {
       "id": 4,
-      "title": "Galaxy S21 FE 5G",
+      "name": "Galaxy S21 FE 5G",
       "image_url": "https://www.backmarket.co.uk/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/582904_ace9c1e2-7693-4b53-81f2-81de27d68df6.jpg",
       "description": "20 MP, f/1.5-2.4, 26mm (wide), 1/2.55, 2µm, dual pixel PDAF, OIS, Iris scanner, fingerprint (rear-mounted)",
       "color": "Grey",
-      "price": "€619"
+      "price": "€619",
+      "brand": "Samsung"
     },
     {
       "id": 5,
-      "title": "Galaxy S21 FE 5G",
+      "name": "Galaxy S21 FE 5G",
       "image_url": "https://www.backmarket.co.uk/cdn-cgi/image/format=auto,quality=75,width=828/https://d1eh9yux7w8iql.cloudfront.net/product_images/583890_448c48b5-ed68-41e7-a04b-d92003a96e6a.jpg",
       "description": "20 MP, f/1.5-2.4, 26mm (wide), 1/2.55, 2µm, dual pixel PDAF, OIS, Iris scanner, fingerprint (rear-mounted)",
       "color": "White",
-      "price": "€750"
+      "price": "€750",
+      "brand": "Samsung"
     },
     {
       "id": 6,
-      "title": "iPhone 13 128gb",
+      "name": "iPhone 13 128gb",
       "image_url": "https://www.backmarket.co.uk/cdn-cgi/image/format=auto,quality=75,width=640/https://d1eh9yux7w8iql.cloudfront.net/product_images/512318_707bdda2-9f5b-4486-bab1-c6dc4ad2d1bc.jpg",
       "description": "Dual 15MP Wide and Ultra Wide cameras, 4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps, FaceTime video calling over cellular or Wi‑Fi",
       "color": "Blue",
