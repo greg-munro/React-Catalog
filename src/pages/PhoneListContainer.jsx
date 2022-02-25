@@ -20,6 +20,12 @@ export const PhoneListContainer = () => {
         return (
           <div key={phone.id}>
             <h3>{phone.name}</h3>
+            <img src={phone.image_url} alt={phone.name} height="200px" />
+            <h6>Color: {phone.color}</h6>
+
+            <h6>{phone.description}</h6>
+            <h4>Price: {phone.price}</h4>
+            <hr></hr>
           </div>
         );
       })}
