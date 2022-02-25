@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 export const PhoneListContainer = () => {
   const [phones, setPhones] = useState([]);
+  const [sortBrand, setSortBrand] = useState([]);
+  const [sortPrice, setSortPrice] = useState([]);
 
   useEffect(() => {
     axios
@@ -14,9 +16,27 @@ export const PhoneListContainer = () => {
       .catch(console.log);
   }, []);
 
+  const sortByBrand = () => {
+    phones.sort((a, b) => {
+      return a.brand < b.brand ? -1 : 1;
+    });
+    setSortBrand(phones);
+  };
+
+  const sortByPrice = () => {
+    phones.sort((a, b) => {
+      return a.price < b.price ? -1 : 1;
+    });
+    setSortPrice(phones);
+  };
+
   return (
     <>
       <h1>Zignaly Phone Catalog</h1>
+
+      <button onClick={sortByBrand}>Sort by Brand</button>
+      <button onClick={sortByPrice}>Sort by Price (lowest-highest)</button>
+
       {phones.map((phone) => {
         return (
           <div key={phone.id}>

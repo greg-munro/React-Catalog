@@ -20,10 +20,10 @@ export const PhoneDetailComponent = () => {
     <div>
       <h3>{phones.name}</h3>
       <img src={phones.image_url} alt={phones.name} height="200px" />
-            <h6>Color: {phones.color}</h6>
+      <h6>Color: {phones.color}</h6>
 
-            <h6>{phones.description}</h6>
-            <h4>Price: {phones.price}</h4>
+      <h6>{phones.description}</h6>
+      <h4>Price: {phones.price}</h4>
     </div>
   );
 };
