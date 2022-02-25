@@ -1,18 +1,24 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Loader from '../components/Loader'
 
 export const PhoneListContainer = () => {
   const [phones, setPhones] = useState([]);
   const [sortBrand, setSortBrand] = useState([]);
   const [sortPrice, setSortPrice] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios
-      .get("http://localhost:3005/phones")
-      .then((response) => {
-        setPhones(response.data);
-      })
+    .get('http://localhost:3005/phones/')
+    .then((response) => {
+      setPhones(response.data);
+      setTimeout(() => {
+        setLoading(false)
+      }, 1000)
+      
+    })
       .catch(console.log);
   }, []);
 
@@ -32,6 +38,7 @@ export const PhoneListContainer = () => {
 
   return (
     <>
+     {loading === true ?  <Loader /> : loading === false }
       <h1>Zignaly Phone Catalog</h1>
 
       <button onClick={sortByBrand}>Sort by Brand</button>
