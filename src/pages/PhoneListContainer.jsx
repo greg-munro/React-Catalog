@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Loader from '../components/Loader'
+import Loader from "../components/Loader";
 
 export const PhoneListContainer = () => {
   const [phones, setPhones] = useState([]);
@@ -11,14 +11,12 @@ export const PhoneListContainer = () => {
 
   useEffect(() => {
     axios
-    .get('http://localhost:3005/phones/')
-    .then((response) => {
-      setPhones(response.data);
-      setTimeout(() => {
-        setLoading(false)
-      }, 1000)
-      
-    })
+      .get("http://localhost:3005/phones/")
+      .then((response) => {
+        setTimeout(() => {}, 2000);
+        setPhones(response.data);
+        setLoading(false);
+      })
       .catch(console.log);
   }, []);
 
@@ -38,7 +36,7 @@ export const PhoneListContainer = () => {
 
   return (
     <>
-     {loading === true ?  <Loader /> : loading === false }
+      {loading === true ? <Loader /> : loading === false}
       <h1>Zignaly Phone Catalog</h1>
 
       <button onClick={sortByBrand}>Sort by Brand</button>
