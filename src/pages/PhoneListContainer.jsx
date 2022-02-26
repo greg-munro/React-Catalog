@@ -38,7 +38,7 @@ export const PhoneListContainer = () => {
 
   return (
     <>
- <h1>Phone Catalog</h1>
+      <h1>Phone Catalog</h1>
       <button
         className="btn btn-primary"
         data-bs-toggle="button"
@@ -46,28 +46,34 @@ export const PhoneListContainer = () => {
         onClick={sortByBrand}
       >
         Sort by Brand
-      </button> 
+      </button>
       <button
         className="btn btn-primary m-2"
         data-bs-toggle="button"
-       
         onClick={sortByPrice}
       >
         Sort by Price
       </button>
-      
 
       {loading === true ? <Loader /> : loading === false}
       {phones.map((phone) => {
         return (
           <div key={phone.id}>
-            <h4>{phone.name}</h4>
-            <img src={phone.image_url} alt={phone.name} height="200px" />
-            <h6>Color: {phone.color}</h6>
 
-            <h6>{phone.description}</h6>
-            <h4>Price: {phone.price}</h4>
-            <Link to={`/phones/${phone.id}`}>Details</Link>
+          <div className="d-flex justify-content-center m-3 mx-auto">
+          <div class="card col-sm-3">
+  <img className="card-img-top" src={phone.image_url} alt={phone.name} />
+  <div class="card-body">
+    <h5 class="card-title">{phone.name}</h5>
+     <h6>Color: {phone.color}</h6>
+    <p class="card-text">{phone.description}</p>
+    <h4>Price: {phone.price}</h4>
+    <Link to={`/phones/${phone.id}`}>Details</Link>
+  </div>
+</div>
+</div>
+         
+          
             <hr></hr>
           </div>
         );
