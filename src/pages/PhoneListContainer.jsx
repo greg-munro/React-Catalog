@@ -5,8 +5,8 @@ import Loader from "../components/Loader";
 
 export const PhoneListContainer = () => {
   const [phones, setPhones] = useState([]);
-  const [sortBrand, setSortBrand] = useState([]);
-  const [sortPrice, setSortPrice] = useState([]);
+  const [sortBrand, setSortBrand] = useState(false);
+  const [sortPrice, setSortPrice] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -20,20 +20,20 @@ export const PhoneListContainer = () => {
       .catch(console.log);
   }, []);
 
-  //const copyPhones = [...phones]
-
   const sortByBrand = () => {
     phones.sort((a, b) => {
       return a.brand < b.brand ? -1 : 1;
     });
-    setSortBrand(phones);
+    setSortBrand(true);
+    setSortPrice(false);
   };
 
   const sortByPrice = () => {
     phones.sort((a, b) => {
       return a.price < b.price ? -1 : 1;
     });
-    setSortPrice(phones);
+    setSortPrice(true);
+    setSortBrand(false);
   };
 
   return (
@@ -59,21 +59,23 @@ export const PhoneListContainer = () => {
       {phones.map((phone) => {
         return (
           <div key={phone.id}>
+            <div className="d-flex justify-content-center m-3 mx-auto">
+              <div class="card col-sm-4 col-md-3 col-lg-3">
+                <img
+                  className="card-img-top"
+                  src={phone.image_url}
+                  alt={phone.name}
+                />
+                <div class="card-body">
+                  <h5 class="card-title">{phone.name}</h5>
+                  <h6>Color: {phone.color}</h6>
+                  <p class="card-text">{phone.description}</p>
+                  <h4>Price: {phone.price}</h4>
+                  <Link to={`/phones/${phone.id}`}>Details</Link>
+                </div>
+              </div>
+            </div>
 
-          <div className="d-flex justify-content-center m-3 mx-auto">
-          <div class="card col-sm-4 col-md-3 col-lg-3">
-  <img className="card-img-top" src={phone.image_url} alt={phone.name} />
-  <div class="card-body">
-    <h5 class="card-title">{phone.name}</h5>
-     <h6>Color: {phone.color}</h6>
-    <p class="card-text">{phone.description}</p>
-    <h4>Price: {phone.price}</h4>
-    <Link to={`/phones/${phone.id}`}>Details</Link>
-  </div>
-</div>
-</div>
-         
-          
             <hr></hr>
           </div>
         );
