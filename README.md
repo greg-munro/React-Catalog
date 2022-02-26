@@ -8,7 +8,7 @@
 
 This project was designed as a simple product catalog app for a Frontend Developer interview process.
 
-<a align="center" href="https://zignaly-phone-catalog.herokuapp.com/">Live Demo</a>
+<a href="https://zignaly-phone-catalog.herokuapp.com/">LIVE DEMO</a>
 
 ## Available Scripts
 
