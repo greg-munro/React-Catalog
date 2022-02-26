@@ -66,10 +66,10 @@ export const PhoneListContainer = () => {
                   src={phone.image_url}
                   alt={phone.name}
                 />
-                <div class="card-body">
-                  <h5 class="card-title">{phone.name}</h5>
+                <div className="card-body">
+                  <h5 className="card-title">{phone.name}</h5>
                   <h6>Color: {phone.color}</h6>
-                  <p class="card-text">{phone.description}</p>
+                  <p className="card-text">{phone.description}</p>
                   <h4>Price: {phone.price}</h4>
                   <Link to={`/phones/${phone.id}`}>Details</Link>
                 </div>
