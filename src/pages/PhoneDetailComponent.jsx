@@ -16,6 +16,7 @@ export const PhoneDetailComponent = () => {
         setPhones(response.data);
         setTimeout(() => {}, 2000);
         setLoading(false);
+  
       })
       .catch(console.log);
   }, [id]);
@@ -25,7 +26,12 @@ export const PhoneDetailComponent = () => {
       <div class="card text-center">
         <div class="card-header">{phones.name}</div>
         <div class="card-body">
-          <img src={phones.image_url} alt={phones.name} height="220px" />
+          <img
+            className="mb-3"
+            src={phones.image_url}
+            alt={phones.name}
+            height="220px"
+          />
           <p class="card-text">{phones.detailed_description}</p>
           <h5>Color: {phones.color}</h5>
           <h5>Rating: {phones.rating}</h5>
@@ -34,7 +40,7 @@ export const PhoneDetailComponent = () => {
         </div>
         <div class="card-footer text-muted">
           <a href="/" class="btn btn-primary">
-            Add to cart
+            Back to home
           </a>
         </div>
       </div>

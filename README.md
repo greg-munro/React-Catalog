@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+<br />
+<div align="center">
+    <img  src="./public/assets/zignaly.png" alt="Logo" width="80" height="80">
+  </a>
+  </div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Zignaly Phone Catalog App
+
+This project was designed as a simple product catalog app for a Frontend Developer interview process. [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
