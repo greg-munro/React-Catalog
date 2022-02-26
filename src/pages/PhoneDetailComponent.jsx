@@ -13,8 +13,8 @@ export const PhoneDetailComponent = () => {
     axios
       .get(`http://localhost:3005/phones/${id}`)
       .then((response) => {
-        setTimeout(() => {}, 2000);
         setPhones(response.data);
+        setTimeout(() => {}, 2000);
         setLoading(false);
       })
       .catch(console.log);

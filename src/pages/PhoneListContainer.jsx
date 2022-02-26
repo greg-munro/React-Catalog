@@ -5,16 +5,16 @@ import Loader from "../components/Loader";
 
 export const PhoneListContainer = () => {
   const [phones, setPhones] = useState([]);
-  const [sortBrand, setSortBrand] = useState([]);
-  const [sortPrice, setSortPrice] = useState([]);
+  const [sortBrand, setSortBrand] = useState([...phones]);
+  const [sortPrice, setSortPrice] = useState([...phones]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios
       .get("http://localhost:3005/phones/")
       .then((response) => {
-        setTimeout(() => {}, 2000);
         setPhones(response.data);
+        setTimeout(() => {}, 2000);
         setLoading(false);
       })
       .catch(console.log);
@@ -24,14 +24,16 @@ export const PhoneListContainer = () => {
     phones.sort((a, b) => {
       return a.brand < b.brand ? -1 : 1;
     });
-    setSortBrand(phones);
+    setSortBrand();
+    
   };
 
   const sortByPrice = () => {
     phones.sort((a, b) => {
       return a.price < b.price ? -1 : 1;
     });
-    setSortPrice(phones);
+    setSortPrice();
+    
   };
 
   return (
