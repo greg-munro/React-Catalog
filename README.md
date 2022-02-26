@@ -14,14 +14,14 @@ This project was designed as a simple product catalog app for a Frontend Develop
 
 In the project directory, for the FRONTEND, from the terminal run:
 
-### `npm install` to install all necessary dependencies, then `npm start`
+### `npm install` then `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 BACKEND, from a seperate terminal run:
 
-### `npm run server`
+### `npm install' then 'npm run server`
 
 Runs the app in the development mode.\
 Open [http://localhost:3005](http://localhost:3005) to view it in your browser.
