@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-    <img  src="./public/assets/zignaly.png" alt="Logo" width="80" height="80">
+    <img  src="./public/assets/readme.png" alt="Logo" width="80" height="80">
   </a>
   </div>
 
