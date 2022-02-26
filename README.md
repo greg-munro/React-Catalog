@@ -8,7 +8,7 @@
 
 This project was designed as a simple product catalog app for a Frontend Developer interview process.
 
-It is a basic app that displays a variety of phones, called from a mock API (json server). On the homepage, all phones are displayed. There are two sorting options available. These allow you to sort the phones by brand, or by price (low-high). When click 'details' on one phone it renders a detailed page providing in deph info, reviews, stock info etc on that particular phone. 
+It is a basic app that displays a variety of phones, called from a mock API (JSON server). On the homepage, all phones are displayed. There are two sorting options available. These allow you to sort the phones by brand (alphabetical) or by price (low-high). When clicking 'details' on a phone it renders a detailed page providing in depth info, reviews and stock information on that particular phone. 
 
 <a href="https://zignaly-phone-catalog.herokuapp.com/">LIVE DEMO</a>
 
