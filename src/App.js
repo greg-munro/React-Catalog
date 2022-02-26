@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-    <NavBarHome />
+      <NavBarHome />
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={PhoneListContainer} />

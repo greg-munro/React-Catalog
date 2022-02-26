@@ -16,7 +16,6 @@ export const PhoneDetailComponent = () => {
         setPhones(response.data);
         setTimeout(() => {}, 2000);
         setLoading(false);
-  
       })
       .catch(console.log);
   }, [id]);
