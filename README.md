@@ -6,29 +6,29 @@
 
 # Zignaly Phone Catalog App
 
-This project was designed as a simple product catalog app for a Frontend Developer interview process. [Create React App](https://github.com/facebook/create-react-app).
+This project was designed as a simple product catalog app for a Frontend Developer interview process.
 
-<a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+<a href="https://zignaly-phone-catalog.herokuapp.com/">View Live Demo</a>
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, for the FRONTEND, from the terminal run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For the BACKEND, from a seperate terminal run:
 
-### `npm test`
+### `npm run server`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode.\
+Open [http://localhost:3005](http://localhost:3005) to view it in your browser.
 
+For the testing environment, from a seperate terminal run:
 
-### Deployment
+### `npx cypress open`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This will open Cypress testing suite
 
