@@ -8,8 +8,9 @@
       "color": "Black",
       "price": "€300 / 7,490 ZIG ",
       "brand": "Apple",
-      "rating": 3,
-      "in_stock": true
+      "rating": "⭐⭐⭐",
+      "in_stock": "✔️",
+      "detailed_description": "The iPhone 11 is available in six colors: Purple, Yellow, Green, Black, White, and Product (Red). A notch is at the front for the TrueDepth camera system and speaker, similar to its predecessor, the iPhone XR. A bump in the back is for the cameras and the flash that is the same size as the iPhone 11 Pro, although the iPhone 11 only has two cameras compared to the Pro's three cameras. Also, the iPhone 11 has a matte glass rear camera housing and glossy glass back, while the iPhone 11 Pro has a glossy glass rear camera housing and matte glass back. "
     },
     {
       "id": 2,
@@ -19,8 +20,9 @@
       "color": "Black",
       "price": "€150 / 3,745 ZIG",
       "brand": "Samsung",
-      "rating": 4,
-      "in_stock": true
+      "rating": "⭐⭐⭐⭐",
+      "in_stock": "✖️",
+      "detailed_description": "On the front, the Galaxy S9 and S9+ look identical to the S8 and S8+. They both feature 1440p Super AMOLED displays, with an 18.5:9 aspect ratio. The S9 has a 5.8-inch panel, while the S9+ uses a larger 6.2-inch panel. The displays have curved sides that slope over the horizontal edges of the device."
     },
     {
       "id": 3,
@@ -30,8 +32,9 @@
       "color": "Blue",
       "price": "€470 / 11,735 ZIG",
       "brand": "Apple",
-      "rating": 5,
-      "in_stock": false
+      "rating": "⭐⭐",
+      "in_stock": "✖️",
+      "detailed_description": "The iPhone 12 and 12 Mini is the first major redesign since the iPhone X. It features a chassis with flat edges, similar to the iPhone 4 and iPhone 5 designs, as well as the iPad Pro since 2018 and the 4th-generation iPad Air, which also released in 2020. The notch size is similar to previous iPhone models, despite speculation about a reduction in width"
     },
     {
       "id": 4,
@@ -41,8 +44,9 @@
       "color": "Grey",
       "price": "€619 / 15,456 ZIG",
       "brand": "Samsung",
-      "rating": 5,
-      "in_stock": false
+      "rating": "⭐⭐⭐",
+      "in_stock": "✔️",
+      "detailed_description": "The Galaxy S21 series has a design similar to its predecessor, with an Infinity-O display containing a circular cutout in the top center for the front selfie camera. The S21 and S21 FE's back panel is reinforced poly-carbonate (plastic) similar to the S20 FE and Note 20 while the S21+ and S21 Ultra use Gorilla Glass Victus.[11] The rear camera array has been integrated into the phone body except for the S21 FE which is made out of reinforced poly-carbonate integrated instead on the back cover and has a metallic surround; the S21 Ultra has a carbon fiber camera surround for exclusive colors."
     },
     {
       "id": 5,
@@ -52,8 +56,9 @@
       "color": "White",
       "price": "€750 / 18,727 ZIG",
       "brand": "Samsung",
-      "rating": 4,
-      "in_stock": true
+      "rating": "⭐⭐⭐⭐",
+      "in_stock": "✔️",
+      "detailed_description": "The Galaxy S21 series has a design similar to its predecessor, with an Infinity-O display containing a circular cutout in the top center for the front selfie camera. The S21 and S21 FE's back panel is reinforced poly-carbonate (plastic) similar to the S20 FE and Note 20 while the S21+ and S21 Ultra use Gorilla Glass Victus."
     },
     {
       "id": 6,
@@ -63,8 +68,9 @@
       "color": "Blue",
       "price": "€650 / 16,230 ZIG",
       "brand": "Apple",
-      "rating": 5,
-      "in_stock": true
+      "rating": "⭐⭐⭐⭐⭐",
+      "in_stock": "✔️",
+      "detailed_description": "The iPhone 13 has a flat chassis analogous to that of contemporaneous Apple products, some differences such as the rear cameras being larger and arranged diagonally. The Face ID TrueDepth sensor housing on the iPhone is 20% smaller yet taller than its predecessors."
     }
   ]
 }

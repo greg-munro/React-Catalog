@@ -61,7 +61,7 @@ export const PhoneListContainer = () => {
           <div key={phone.id}>
 
           <div className="d-flex justify-content-center m-3 mx-auto">
-          <div class="card col-sm-3">
+          <div class="card col-sm-4 col-md-3 col-lg-3">
   <img className="card-img-top" src={phone.image_url} alt={phone.name} />
   <div class="card-body">
     <h5 class="card-title">{phone.name}</h5>

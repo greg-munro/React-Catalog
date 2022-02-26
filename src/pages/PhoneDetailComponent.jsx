@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import Loader from "../components/Loader";
 
-
 export const PhoneDetailComponent = () => {
   const [phones, setPhones] = useState([]);
   const { id } = useParams();
@@ -23,14 +22,24 @@ export const PhoneDetailComponent = () => {
 
   return (
     <div>
-   
-      {loading === true ? <Loader /> : loading === "false"}
-      <h3>{phones.name}</h3>
-      <img src={phones.image_url} alt={phones.name} height="200px" />
-      <h6>Color: {phones.color}</h6>
+      <div class="card text-center">
+        <div class="card-header">{phones.name}</div>
+        <div class="card-body">
+          <img src={phones.image_url} alt={phones.name} height="220px" />
+          <p class="card-text">{phones.detailed_description}</p>
+          <h5>Color: {phones.color}</h5>
+          <h5>Rating: {phones.rating}</h5>
+          <h5>In Stock: {phones.in_stock}</h5>
+          <h4>Price: {phones.price}</h4>
+        </div>
+        <div class="card-footer text-muted">
+          <a href="/" class="btn btn-primary">
+            Add to cart
+          </a>
+        </div>
+      </div>
 
-      <h6>{phones.description}</h6>
-      <h4>Price: {phones.price}</h4>
+      {loading === true ? <Loader /> : loading === "false"}
     </div>
   );
 };
