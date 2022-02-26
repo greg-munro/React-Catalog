@@ -2,3 +2,13 @@
   text-align: center;
 }
 
+body {
+  background-color: #F1E7DD
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #5B47B4 !important;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+}

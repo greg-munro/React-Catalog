@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import Loader from "../components/Loader";
 
+
 export const PhoneDetailComponent = () => {
   const [phones, setPhones] = useState([]);
   const { id } = useParams();
@@ -22,6 +23,7 @@ export const PhoneDetailComponent = () => {
 
   return (
     <div>
+   
       {loading === true ? <Loader /> : loading === "false"}
       <h3>{phones.name}</h3>
       <img src={phones.image_url} alt={phones.name} height="200px" />
